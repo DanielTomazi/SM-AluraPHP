@@ -36,10 +36,10 @@ $genero = match ($nomeFilme) {
 echo "O gênero do filme é: $genero\n";
 
 $filme = criaFilme(
-    nota: 7.8,
-    genero: "super-herói",
-    ano: 2021,
-    nome: "Thor: Ragnarok",
+    "Thor: Ragnarok",
+    2021,
+    "super-herói",
+    7.4,
 );
 
 echo $filme["ano"];
